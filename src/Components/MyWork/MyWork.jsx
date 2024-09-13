@@ -3,11 +3,10 @@ import './MyWork.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import mywork_data from '../../assets/mywork_data';
 import arrow_icon from '../../assets/arrow_icon.svg';
-import live_demo_icon from '../../assets/livedemo.svg'; // Add your live demo icon here
 
 const MyWork = () => {
   return (
-    <div id='work' className='mywork'>
+    <div id="work" className="mywork">
       <div className="mywork-title">
         <h1>My latest work</h1>
         <img src={theme_pattern} alt="" />
@@ -15,20 +14,22 @@ const MyWork = () => {
       <div className="mywork-container">
         {mywork_data.map((work, index) => {
           return (
-            <a
-              key={index}
-              href={work.w_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mywork-item"
-            >
+            <div key={index} className="mywork-item">
               <div className="mywork-img-container">
                 <img src={work.w_img} alt={work.w_name} />
-                <div className="live-demo-icon">
-                  <img src={live_demo_icon} alt="Live Demo" />
+                <div className="link-overlay">
+                  <a href={work.w_link} target="_blank" rel="noopener noreferrer" className="link-button">
+                    Live Demo
+                  </a>
+                  <a href={work.github_link} target="_blank" rel="noopener noreferrer" className="link-button">
+                    GitHub
+                  </a>
                 </div>
               </div>
-            </a>
+              <div className="tech-info">
+                {work.technologies.join(', ')}
+              </div>
+            </div>
           );
         })}
       </div>
