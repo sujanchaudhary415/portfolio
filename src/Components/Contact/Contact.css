@@ -57,6 +57,9 @@
     align-items: center;
     gap: 20px;
 }
+.contact-detail img {
+    width: 40px;
+}
 .contact-right{
     display: flex;
     flex-direction: column;
