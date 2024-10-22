@@ -13,6 +13,11 @@ import javaIcon from "../../assets/javaicon.svg";
 import gitIcon from "../../assets/giticon.svg";
 import githubIcon from "../../assets/githubicon.svg";
 import figmaIcon from "../../assets/figmaicon.svg";
+import MongodbIcon from "../../assets/mongoDB.svg";
+import ExpressIcon from "../../assets/ExpressIcon.svg";
+import NodeIcon from "../../assets/nodeIcon.svg";
+import PrismaIcon from "../../assets/prismaIcon.svg";
+import TailwindIcon from "../../assets/TailwindIcon.svg";
 
 const About = () => {
   return (
@@ -45,12 +50,12 @@ const About = () => {
               <p>JavaScript</p>
             </div>
             <div className="about-skill">
-              <img src={javaIcon} alt="Java" className="skill-icon" />
-              <p>Java</p>
-            </div>
-            <div className="about-skill">
               <img src={reactIcon} alt="React" className="skill-icon" />
               <p>React</p>
+            </div>
+            <div className="about-skill">
+              <img src={TailwindIcon} alt="Bootstrap" className="skill-icon" />
+              <p>Tailwind CSS</p>
             </div>
             <div className="about-skill">
               <img src={bootstrapIcon} alt="Bootstrap" className="skill-icon" />
@@ -61,8 +66,28 @@ const About = () => {
               <p>Chakra UI</p>
             </div>
             <div className="about-skill">
+              <img src={MongodbIcon} alt="Chakra UI" className="skill-icon" />
+              <p>MongoDB</p>
+            </div>
+            <div className="about-skill">
+              <img src={ExpressIcon} alt="Chakra UI" className="skill-icon" />
+              <p>Express</p>
+            </div>
+            <div className="about-skill">
+              <img src={NodeIcon} alt="Chakra UI" className="skill-icon" />
+              <p>Node.js</p>
+            </div>
+            <div className="about-skill">
               <img src={firebaseIcon} alt="Firebase" className="skill-icon" />
               <p>Firebase</p>
+            </div>
+            <div className="about-skill">
+              <img src={PrismaIcon} alt="Firebase" className="skill-icon" />
+              <p>Prisma</p>
+            </div>
+            <div className="about-skill">
+              <img src={javaIcon} alt="Java" className="skill-icon" />
+              <p>Java</p>
             </div>
             <div className="about-skill">
               <img src={gitIcon} alt="Git" className="skill-icon" />
