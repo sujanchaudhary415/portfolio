@@ -1,12 +1,22 @@
 import project1_img from '../assets/project_1.png'
 import project2_img from '../assets/project_2.png'
 import project3_img from '../assets/project_3.png'
+import project11_img from "../assets/project11.png"
 
 
 
 const mywork_data = [
     {
         w_no:1,
+        w_name:"ForeverShop",
+        w_img:project11_img,
+        w_link: "https://forever-frontend-six.vercel.app/",
+         github_link: "https://github.com/sujanchaudhary415/ForeverShop",
+         technologies: ["React", "MongoDB","Tailwind CSS","Express","Node.JS"]
+    },
+    
+    {
+        w_no:2,
         w_name:"Instagram Clone",
         w_img:project1_img,
         w_link: "https://instagram-clone-khaki-phi.vercel.app",
@@ -14,7 +24,7 @@ const mywork_data = [
          technologies: ["React", "Firebase","CSS"]
     },
     {
-        w_no:2,
+        w_no:3,
         w_name:"Real-time Chat App",
         w_img:project2_img,
          w_link: "https://realtime-chat-app-coral-six.vercel.app",
@@ -23,7 +33,7 @@ const mywork_data = [
 
     },
     {
-        w_no:3,
+        w_no:4,
         w_name:"Vidtube",
         w_img:project3_img,
          w_link: "https://youtubeclone-react.vercel.app",

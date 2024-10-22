@@ -14,7 +14,7 @@ import gitIcon from "../../assets/giticon.svg";
 import githubIcon from "../../assets/githubicon.svg";
 import figmaIcon from "../../assets/figmaicon.svg";
 import MongodbIcon from "../../assets/mongoDB.svg";
-import ExpressIcon from "../../assets/ExpressIcon.svg";
+import ExpressIcon from "../../assets/expressIcon.svg";
 import NodeIcon from "../../assets/nodeIcon.svg";
 import PrismaIcon from "../../assets/prismaIcon.svg";
 import TailwindIcon from "../../assets/TailwindIcon.svg";
@@ -111,7 +111,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>6+</h1>
+          <h1>10+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
       </div>
