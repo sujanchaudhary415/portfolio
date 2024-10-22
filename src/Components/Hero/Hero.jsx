@@ -1,7 +1,7 @@
-import React from 'react'
-import './Hero.css'
-import profile_img from '../../assets/profilepic12.png'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import React from 'react';
+import './Hero.css';
+import profile_img from '../../assets/profilepic12.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
               </AnchorLink>
             </div>
             <div className="hero-resume">
-              <a href="/resume.pdf" download="Sujan_Chaudhary_Resume.pdf" className="resume-link">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
                 My resume
               </a>
             </div>
@@ -25,4 +25,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
